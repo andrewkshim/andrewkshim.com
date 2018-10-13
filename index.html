@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Andrew K. Shim</title>
+  <link href="https://fonts.googleapis.com/css?family=Cousine|Merriweather:700" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 10px;
+    }
+
+    body {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      margin: 0;
+      width: 100vw;
+    }
+
+    h1, h2 {
+      margin: 0;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: inherit;
+    }
+
+    .top {
+      align-items: center;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      justify-content: flex-end;
+      padding-bottom: 2rem;
+      width: 100%;
+    }
+
+    .bottom {
+      align-items: center;
+      background-color: white;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      justify-content: flex-start;
+      padding-top: 2rem;
+      width: 100%;
+    }
+
+    .name {
+      font-family: 'Merriweather', serif;
+      font-size: 8rem;
+      font-weight: 700;
+      width: 100%;
+    }
+
+    .title {
+      font-family: 'Cousine', monospace;
+      font-size: 4rem;
+      font-weight: 400;
+    }
+
+    .at {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 40%;
+    }
+
+    .at__line {
+      background-color: black;
+      flex: 0 0 18.5rem;
+      height: 1px;
+    }
+
+    .at__sign {
+      font-family: 'Merriweather', serif;
+      font-size: 3rem;
+      margin: 0 0.5rem;
+    }
+
+    .organization {
+      margin-top: 1rem;
+    }
+
+    .organization__link {
+      color: #F87B5E;
+      font-family: 'Cousine', monospace;
+      font-size: 4rem;
+      font-weight: 400;
+    }
+
+  </style>
+</head>
+<body>
+  <div class='top'>
+    <h1 class='name'>
+      Andrew K. Shim
+    </h1>
+  </div>
+  <div class='bottom'>
+    <h2 class='title'>
+      software engineer
+    </h2>
+      <div class='at'>
+        <div class='at__line'></div>
+        <div class='at__sign'>@</div>
+        <div class='at__line'></div>
+      </div>
+      <h2 class='organization'>
+        <a class='organization__link' href='https://www.wearethorn.org/' target='_blank' rel='noopener noreferrer'>thorn</a>
+      </h2>
+  </div>
+</body>
+</html>
